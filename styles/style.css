@@ -1,0 +1,63 @@
+.page {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-size: var(--text-font-size);
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+.to-top__button {
+  display: block;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0px 8px var(--accent-color-first),
+    0 0px 20px var(--accent-color-second);
+  animation: box-shadow-shift 5s ease infinite;
+}
+
+.button {
+  color: var(--accent-text-color);
+  font-size: var(--button-font-size);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: left 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.button:hover::before {
+  left: 0;
+}
+
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+:root {
+  --background-color: #1c1c1e;
+  --main-text-color: #d3d3d4;
+  --accent-text-color: #fff;
+  --accent-color-first: #1cbaba;
+  --accent-color-second: #d52828;
+  --accent-background-color: #2a2a2d;
+  --title-font-size: 36px;
+  --text-font-size: 18px;
+  --additional-font-size: 20px;
+  --button-font-size: 24px;
+}

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn & Earn</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__logo">
+        <a href="index.html">
+          <img
+            class="logo__image"
+            src="./images/logo.png"
+            alt="Learn & Earn logo"
+          />
+        </a>
+      </div>
+      <div class="header__auth">
+        <a href="login.html" class="button header__login">Войти</a>
+        <a href="register.html" class="button header__register">Регистрация</a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="to-top__button">
+        <a href="#top" class="to-top__link">
+          <img
+            src="./images/icons/arrow-up_icon.png"
+            alt="To top button"
+            class="to-top__icon"
+          />
+        </a>
+      </div>
+      <section class="main__image">
+        <div class="main__image-container">
+          <img src="./images/main__image.png" alt="Learn & Earn img" />
+        </div>
+      </section>
+      <section class="main__content">
+        <aside class="navigation__container">
+          <div class="scroll-indicator"></div>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a href="" class="navigation__link button to__main-button"
+                  >На главную</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#about-us" class="navigation__link">О нас</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#services" class="navigation__link">Услуги</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#why-us" class="navigation__link">Почему мы?</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#pricing" class="navigation__link">Тарифы</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#interaction" class="navigation__link"
+                  >Взаимодействие</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#security" class="navigation__link">Безопасность</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#support" class="navigation__link">Поддержка</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="#feedback" class="navigation__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="content__container">
+          <h1 class="content__title" id="about-us">О нас</h1>
+          <section class="content__section">
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/about_us.png"
+                alt="Content img"
+              />
+            </div>
+            <div class="section__text">
+              <p class="section__paragraph">
+                Learn & Earn — это современная образовательная платформа,
+                созданная для студентов, школьников и педагогов, где каждый
+                может совместить учебу с возможностью заработка. Мы открываем
+                новые горизонты для тех, кто хочет быть не только потребителем
+                знаний, но и активным участником образовательного процесса. На
+                нашей платформе вы можете размещать учебные задания, выполнять
+                задачи других пользователей и даже предлагать собственные
+                образовательные услуги, например, репетиторство.
+              </p>
+              <p class="section__paragraph">
+                Мы верим, что знания должны приносить не только пользу, но и
+                доход. Learn & Earn — это инструмент для развития навыков,
+                самоорганизации и построения первых шагов в карьере.
+              </p>
+            </div>
+          </section>
+          <h1 class="content__title" id="services">Услуги</h1>
+          <section class="cards__section">
+            <div class="card">
+              <div class="card__front">
+                <div class="card__avatar">
+                  <img
+                    loading="lazy"
+                    src="./images/content/schoolboy.png"
+                    alt="schoolboy"
+                  />
+                </div>
+                <h3 class="card__title">Школьникам</h3>
+              </div>
+              <div class="card__back">
+                <p>
+                  Для школьников Learn & Earn — это шаг к самостоятельности и
+                  развитию. Здесь можно не только найти помощь с учебой, но и
+                  попробовать себя в роли исполнителя.
+                </p>
+                <ul>
+                  <li>
+                    Размещайте задачи, которые вам сложно решить самостоятельно,
+                    и находите тех, кто готов вам помочь.
+                  </li>
+                  <li>
+                    Беритесь за простые задания, например, помощь младшим
+                    ученикам, решение задач или подготовка к контрольным.
+                  </li>
+                  <li>
+                    Обретайте уверенность, получая не только знания, но и первый
+                    заработок.
+                  </li>
+                </ul>
+                <p>
+                  Наш сервис поможет школьникам развивать навыки
+                  самостоятельного принятия решений и ответственности.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__front">
+                <div class="card__avatar">
+                  <img
+                    loading="lazy"
+                    src="./images/content/student.png"
+                    alt="student"
+                  />
+                </div>
+                <h3 class="card__title">Студентам</h3>
+              </div>
+              <div class="card__back">
+                <p>
+                  Вы учитесь в вузе и ищете способы дополнительного заработка?
+                  Learn & Earn предоставляет вам платформу, где знания и навыки
+                  превращаются в реальные деньги.
+                </p>
+                <ul>
+                  <li>
+                    Выполняйте задания по своим сильным сторонам, будь то
+                    написание эссе, помощь в расчетах или подготовка
+                    презентаций.
+                  </li>
+                  <li>
+                    Найдите помощь в учебе, будь то сложные тесты, подготовка к
+                    сессии или консультации по конкретным темам.
+                  </li>
+                  <li>
+                    Станьте частью сообщества, где ценят ваш интеллект и труд.
+                  </li>
+                </ul>
+                <p>
+                  Платформа также помогает накапливать опыт, развивать
+                  ответственность и учиться эффективно планировать свое время.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__front">
+                <div class="card__avatar">
+                  <img
+                    loading="lazy"
+                    src="./images/content/teacher.png"
+                    alt="teacher"
+                  />
+                </div>
+                <h3 class="card__title">Преподавателям</h3>
+              </div>
+              <div class="card__back">
+                <p>
+                  Для учителей, репетиторов и преподавателей Learn & Earn — это
+                  удобная платформа для продвижения ваших услуг.
+                </p>
+                <ul>
+                  <li>
+                    Размещайте объявления о репетиторских занятиях, указывая
+                    свои предметы, формат (онлайн/оффлайн) и стоимость.
+                  </li>
+                  <li>
+                    Работайте с увлеченными учениками, которые ценят ваше время
+                    и экспертизу.
+                  </li>
+                  <li>
+                    Получайте заказы на проверку, редактирование или
+                    консультации по сложным заданиям.
+                  </li>
+                </ul>
+                <p>
+                  Мы помогаем педагогам находить учеников без лишних усилий и
+                  фокусироваться на том, что вы умеете лучше всего — обучении.
+                </p>
+              </div>
+            </div>
+          </section>
+          <h1 class="content__title" id="why-us">Почему мы?</h1>
+          <section class="content__section">
+            <div class="section__text">
+              <p class="section__paragraph">
+                Наша платформа — это не просто инструмент, а полноценное решение
+                для роста и развития пользователей:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  Широкие возможности: Мы предлагаем различные форматы для
+                  каждого — от простых заданий до крупных образовательных
+                  проектов, чтобы каждый мог найти то, что ему нужно.
+                </li>
+                <li class="section__list-item">
+                  Доверие и репутация: Все пользователи проходят проверку, а
+                  система отзывов и рейтингов помогает сделать правильный выбор
+                  и уверенность в надежности партнеров.
+                </li>
+                <li class="section__list-item">
+                  Понятные условия сотрудничества: Мы обеспечиваем прозрачность
+                  всех процессов, включая оплату, выполнение заданий и
+                  предоставление услуг.
+                </li>
+                <li class="section__list-item">
+                  Интуитивно понятный интерфейс: Платформа проста в
+                  использовании, и даже новички быстро осваиваются.
+                </li>
+                <li class="section__list-item">
+                  Сообщество единомышленников: Здесь собираются люди,
+                  стремящиеся к успеху, знаниям и новым достижениям, что создает
+                  позитивную и поддерживающую атмосферу.
+                </li>
+              </ul>
+            </div>
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/why_us.png"
+                alt="Content img"
+              />
+            </div>
+          </section>
+          <h1 class="content__title" id="pricing">Тарифы</h1>
+          <section class="content__section">
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/pricing.png"
+                alt="Content img"
+              />
+            </div>
+            <div class="section__text">
+              <p class="section__paragraph">
+                Мы предлагаем удобные и выгодные условия для пользователей, будь
+                то школьники, студенты или преподаватели:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  <strong>Размещение заказов:</strong> Школьники и студенты
+                  могут бесплатно размещать заказы на платформе, без ограничений
+                  по количеству. Однако при успешной оплате заказа с вас будет
+                  взиматься комиссия 2% от суммы сделки. Исполнитель получает
+                  сумму с учетом вычета этих 2%.
+                </li>
+                <li class="section__list-item">
+                  <strong>Выполнение заказов:</strong> Чтобы подавать заявки на
+                  выполнение заданий, необходимо приобретать отклики. Стоимость
+                  откликов:
+                  <ul>
+                    <li>1 отклик — 50 руб.</li>
+                    <li>10 откликов — 300 руб.</li>
+                    <li>25 откликов — 700 руб.</li>
+                  </ul>
+                  При регистрации каждому пользователю предоставляется 5
+                  откликов бесплатно.
+                </li>
+                <li class="section__list-item">
+                  <strong>Размещение карточек услуг:</strong> Чтобы повысить
+                  видимость своих услуг для потенциальных заказчиков, можно
+                  разместить карточку с предложением на платформе. Стоимость
+                  размещения карточки составляет 399 руб. в месяц.
+                </li>
+              </ul>
+            </div>
+          </section>
+          <h1 class="content__title" id="interaction">Взаимодействие</h1>
+          <section class="content__section">
+            <div class="section__text">
+              <p class="section__paragraph">
+                Мы ценим честность и доверие между пользователями и
+                устанавливаем строгие правила для обеспечения безопасной и
+                эффективной работы:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  <strong>Полное выполнение обязательств:</strong> Каждый
+                  участник, будь то заказчик или исполнитель, обязуется
+                  выполнять свои обязательства в полном объеме и в срок.
+                  Несоблюдение условий сделки нарушает правила платформы.
+                </li>
+                <li class="section__list-item">
+                  <strong>Запрещено мошенничество:</strong> Мошенничество в
+                  любой форме строго запрещено. Это включает, например,
+                  невыполнение заказа после получения оплаты или подделку
+                  информации о выполнении работы. Все попытки обмана будут
+                  пресечены, аккаунты нарушителей будут заблокированы, а доступ
+                  к платформе ограничен.
+                </li>
+                <li class="section__list-item">
+                  <strong>Ответственность за невыполнение обязательств:</strong>
+                  Если одна из сторон не выполняет свои обязательства, другая
+                  сторона имеет право подать жалобу и требовать компенсации.
+                  Платформа может применить меры, такие как заморозка средств,
+                  временное или постоянное блокирование аккаунта нарушителя, а
+                  также штрафные санкции.
+                </li>
+              </ul>
+              <p class="section__paragraph">
+                Мы призываем всех пользователей соблюдать высокие стандарты
+                профессионализма и уважения, чтобы создать доверительную
+                атмосферу для успешной работы на платформе.
+              </p>
+            </div>
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/interaction.png"
+                alt="Content img"
+              />
+            </div>
+          </section>
+          <h1 class="content__title" id="security">Безопасность</h1>
+          <section class="content__section">
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/security.png"
+                alt="Content img"
+              />
+            </div>
+            <div class="section__text">
+              <p class="section__paragraph">
+                Мы понимаем, что безопасность — ключевой аспект для работы на
+                платформе. Именно поэтому:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  Платежи защищены: Все финансовые операции проходят через
+                  надежные платежные системы с высоким уровнем защиты.
+                </li>
+                <li class="section__list-item">
+                  Проверка пользователей: Мы проводим верификацию аккаунтов,
+                  чтобы исключить мошенничество.
+                </li>
+                <li class="section__list-item">
+                  Контроль качества: Задания и услуги проходят модерацию, чтобы
+                  обеспечить соответствие правилам платформы.
+                </li>
+                <li class="section__list-item">
+                  Конфиденциальность данных: Ваша личная информация защищена от
+                  утечек и не передается третьим лицам.
+                </li>
+              </ul>
+              <p class="section__paragraph">
+                Вы можете быть уверены, что сотрудничество на Learn & Earn
+                безопасно для всех сторон.
+              </p>
+            </div>
+          </section>
+          <h1 class="content__title" id="support">Поддержка</h1>
+          <section class="content__section">
+            <div class="section__text">
+              <p class="section__paragraph">
+                Мы всегда рядом, чтобы помочь вам максимально эффективно
+                использовать возможности платформы:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  Чат поддержки: Свяжитесь с нами в любое время, и мы оперативно
+                  ответим на ваши вопросы.
+                </li>
+                <li class="section__list-item">
+                  Инструкции и советы: В разделе помощи вы найдете ответы на
+                  частые вопросы, а также рекомендации для успешной работы на
+                  платформе.
+                </li>
+                <li class="section__list-item">
+                  Обратная связь: Мы ценим ваши идеи и готовы улучшать сервис,
+                  опираясь на ваши отзывы.
+                </li>
+              </ul>
+            </div>
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/support.png"
+                alt="Content img"
+              />
+            </div>
+          </section>
+          <h1 class="content__title" id="feedback">Отзывы</h1>
+          <section class="content__section">
+            <div class="section__image-container">
+              <img
+                loading="lazy"
+                src="./images/content/feedback.png"
+                alt="Content img"
+              />
+            </div>
+            <div class="section__text">
+              <p class="section__paragraph">
+                На нашей платформе вы найдете систему отзывов, которая помогает
+                сделать сотрудничество комфортным и прозрачным:
+              </p>
+              <ul class="section__list">
+                <li class="section__list-item">
+                  Оценки исполнителей и заказчиков: После завершения задания обе
+                  стороны могут оставить оценку и комментарий о своем опыте.
+                </li>
+                <li class="section__list-item">
+                  Рейтинг пользователей: Система баллов учитывает качество
+                  выполнения заданий, соблюдение сроков и активность на
+                  платформе.
+                </li>
+                <li class="section__list-item">
+                  Детальные отзывы: Пользователи могут делиться своими
+                  впечатлениями, отмечать сильные стороны исполнителей или
+                  заказчиков, а также давать рекомендации другим участникам.
+                </li>
+                <li class="section__list-item">
+                  Прозрачность: Вы всегда видите отзывы о человеке, с которым
+                  планируете сотрудничать, что позволяет заранее оценить
+                  надежность и профессионализм.
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__info footer__section">
+        <div class="footer__logo">
+          <a href="index.html">
+            <img
+              class="logo__image"
+              src="./images/logo.png"
+              alt="Learn & Earn logo"
+            />
+          </a>
+        </div>
+        <ul class="footer__info-list footer__section-list">
+          <li class="footer__info-item">ООО "Learn & Earn"</li>
+          <li class="footer__info-item">ИНН 1234567890</li>
+          <li class="footer__info-item">ОГРН 1234567890123</li>
+        </ul>
+      </section>
+      <section class="footer__service footer__section">
+        <ul class="footer__service-list footer__section-list">
+          <li class="footer__service-item">
+            <a href="" class="footer__service-link">Школьникам</a>
+          </li>
+          <li class="footer__service-item">
+            <a href="" class="footer__service-link">Студентам</a>
+          </li>
+          <li class="footer__service-item">
+            <a href="" class="footer__service-link">Преподавателям</a>
+          </li>
+          <li class="footer__service-item">
+            <a href="" class="footer__service-link">Отзывы</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer__documents footer__section">
+        <ul class="footer__documents-list footer__section-list">
+          <li class="footer__documents-item">
+            <a href="" class="footer__documents-link"
+              >Пользовательское соглашение</a
+            >
+          </li>
+          <li class="footer__documents-item">
+            <a href="" class="footer__documents-link"
+              >Политика конфиденциальности</a
+            >
+          </li>
+          <li class="footer__documents-item">
+            <a href="" class="footer__documents-link"
+              >Политика обработки персональных данных</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="footer__support footer__section">
+        <ul class="footer__support-list footer__section-list">
+          <li class="footer__support-item">
+            <a href="tel:+78005553535" class="footer__support-phone"
+              >8-800-555-35-35</a
+            >
+          </li>
+          <li class="footer__support-item">
+            <a
+              href="mailto:learnandearn@example.com"
+              class="footer__support-email"
+              >le@example.com</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="footer__contacts footer__section">
+        <address class="footer__contacts-address">
+          <ul class="footer__contacts-address-list footer__section-list">
+            <li class="footer__contacts-address-item">
+              123456, г. Москва, ул. Пушкина, д. 10
+            </li>
+            <li class="footer__contacts-address-item">Офис 101</li>
+          </ul>
+        </address>
+        <ul class="footer__contacts-list">
+          <li class="footer__contacts-item">
+            <a href="" class="footer__contacts-link">
+              <img
+                src="./images/icons/vk_icon.png"
+                alt="VK"
+                class="footer__contacts-icon"
+              />
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a href="" class="footer__contacts-link">
+              <img
+                src="./images/icons/telegram_icon.png"
+                alt="Facebook"
+                class="footer__contacts-icon"
+              />
+            </a>
+          </li>
+          <li class="footer__contacts-item">
+            <a href="" class="footer__contacts-link">
+              <img
+                src="./images/icons/instagram_icon.png"
+                alt="Instagram"
+                class="footer__contacts-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer__alert footer__section">
+        <p class="footer__alert-text">
+          *Внимание! Наша платформа не является образовательным учреждением и не
+          предоставляет образовательные услуги. Мы не несем ответственности за
+          качество и содержание предоставляемых услуг. Перед началом
+          сотрудничества убедитесь в надежности и профессионализме исполнителя.*
+        </p>
+      </section>
+    </footer>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
